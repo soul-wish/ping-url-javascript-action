@@ -1,5 +1,5 @@
-import core from '@actions/core';
-import https from 'https';
+const core = require('@actions/core');
+const https = require('https');
 
 try {
   const urlToPing = core.getInput('url');
