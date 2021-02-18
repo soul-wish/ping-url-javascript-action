@@ -10,6 +10,19 @@ This action pings required URL by using Node.js `https` module.
 
 ## Example usage
 
-uses: actions/ping-url-javascript-action@v1.0
-with:
-url: 'https://google.com'
+```
+on:
+  schedule:
+    - cron: '*/5 * * * *' # will run every 5 minutes
+
+jobs:
+  ping_url:
+    runs-on: ubuntu-latest
+    name: Ping URL
+    steps:
+      - name: Check the URL
+        id: ping
+        uses: soul-wish/ping-url-javascript-action@v1
+        with:
+          url: 'https://google.com'
+```
