@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Check the URL
         id: ping
-        uses: soul-wish/ping-url-javascript-action@v1
+        uses: soul-wish/ping-url-javascript-action@v1.1
         with:
           url: 'https://google.com'
 ```
