@@ -1,5 +1,8 @@
 name: 'Ping URL (JavaScript action)'
 description: 'Ping any URL you want by using Node.js https module. You can use it with any events or even as a cron job.'
+branding:
+  icon: 'check-circle'
+  color: 'green'
 inputs:
   url:
     description: 'URL to ping'
