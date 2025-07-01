@@ -1,6 +1,6 @@
 {
   "name": "ping-url-javascript-action",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Ping URL JavaScript action",
   "main": "index.js",
   "scripts": {
