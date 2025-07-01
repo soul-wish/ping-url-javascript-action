@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Check the URL
         id: ping
-        uses: soul-wish/ping-url-javascript-action@v1.3
+        uses: soul-wish/ping-url-javascript-action@v1.4
         with:
           url: 'https://google.com'
