@@ -1,23 +1,29 @@
 {
   "name": "ping-url-action",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "GitHub Action to ping a URL periodically to keep it alive (forked and updated to remove deprecated set-output usage)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soul-wish/ping-url-action.git"
+    "url": "git+https://github.com/Maverick341/ping-url-javascript-action.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "github-actions",
+    "uptime",
+    "keepalive",
+    "ping",
+    "cron"
+  ],
+  "author": "Sushant Shinde <shinde341sushant@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/soul-wish/ping-url-action/issues"
+    "url": "https://github.com/Maverick341/ping-url-javascript-action/issues"
   },
-  "homepage": "https://github.com/soul-wish/ping-url-action#readme",
+  "homepage": "https://github.com/Maverick341/ping-url-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.11.1"
   }
 }
