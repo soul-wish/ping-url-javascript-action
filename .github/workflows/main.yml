@@ -1,0 +1,14 @@
+on:
+  schedule:
+    - cron: '*/15 * * * *' 
+
+jobs:
+  ping_url:
+    runs-on: ubuntu-latest
+    name: Ping URL
+    steps:
+      - name: Check the URL
+        id: ping
+        uses: soul-wish/ping-url-javascript-action@v1.3
+        with:
+          url: 'https://google.com'
