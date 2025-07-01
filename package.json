@@ -1,23 +1,29 @@
 {
-  "name": "ping-url-action",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ping-url-javascript-action",
+  "version": "1.4",
+  "description": "Ping URL JavaScript action",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soul-wish/ping-url-action.git"
+    "url": "git+https://github.com/soul-wish/ping-url-javascript-action.git"
   },
-  "keywords": [],
+  "keywords": [
+    "github-actions",
+    "uptime",
+    "keepalive",
+    "ping",
+    "cron"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soul-wish/ping-url-action/issues"
+    "url": "https://github.com/soul-wish/ping-url-javascript-action/issues"
   },
-  "homepage": "https://github.com/soul-wish/ping-url-action#readme",
+  "homepage": "https://github.com/soul-wish/ping-url-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.11.1"
   }
 }

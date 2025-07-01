@@ -13,7 +13,7 @@ This action pings required URL by using Node.js `https` module.
 ```
 on:
   schedule:
-    - cron: '*/5 * * * *' # will run every 5 minutes
+    - cron: '*/15 * * * *' # will run every 15 minutes
 
 jobs:
   ping_url:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Check the URL
         id: ping
-        uses: soul-wish/ping-url-javascript-action@v1.1
+        uses: soul-wish/ping-url-javascript-action@v1.4
         with:
           url: 'https://google.com'
 ```
